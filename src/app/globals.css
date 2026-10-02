@@ -94,6 +94,16 @@ body {
     color 180ms var(--ease-out);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .about-detail-row:hover {
+    transform: translateY(-0.0625rem);
+    border-radius: 0.75rem;
+    background: color-mix(in srgb, var(--accent-soft) 62%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 24%, var(--border));
+    box-shadow: 0 10px 24px rgb(var(--shadow-color) / 10%);
+  }
+}
+
 ::selection {
   background: var(--selection);
   color: var(--selection-foreground);
@@ -118,5 +128,16 @@ button {
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .about-detail-row:hover {
+    transform: none;
+    background: transparent;
+    border-color: var(--border);
+    box-shadow: none;
+  }
+
+  .about-detail-row:hover .about-detail-icon {
+    transform: none;
   }
 }

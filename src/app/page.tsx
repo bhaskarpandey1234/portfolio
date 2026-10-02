@@ -1,4 +1,5 @@
 import { PortfolioHero } from "@/components/portfolio/portfolio-hero";
+import { PortfolioAbout } from "@/components/portfolio/portfolio-about";
 import { SiteHeader } from "@/components/portfolio/site-header";
 
 export default function Home() {
@@ -10,7 +11,10 @@ export default function Home() {
       />
       <SiteHeader />
       <main id="main-content" className="relative z-content flex flex-1">
-        <PortfolioHero />
+        <div className="flex w-full flex-col">
+          <PortfolioHero />
+          <PortfolioAbout />
+        </div>
       </main>
     </div>
   );
