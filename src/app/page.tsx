@@ -1,6 +1,7 @@
 import { PortfolioHero } from "@/components/portfolio/portfolio-hero";
 import { PortfolioAbout } from "@/components/portfolio/portfolio-about";
 import { SiteHeader } from "@/components/portfolio/site-header";
+import { PortfolioTechStack } from "@/components/portfolio/portfolio-tech-stack";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <div className="flex w-full flex-col">
           <PortfolioHero />
           <PortfolioAbout />
+          <PortfolioTechStack />
         </div>
       </main>
     </div>
