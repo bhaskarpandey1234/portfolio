@@ -72,7 +72,7 @@ export function PortfolioExperience() {
   const [expandedId, setExpandedId] = useState("telic");
 
   return (
-    <section id="experience" aria-labelledby="experience-title" className="animate-fade-in-up-1 min-w-0 lg:col-span-6">
+    <section id="experience" aria-labelledby="experience-title" className="anchor-section animate-fade-in-up-1 min-w-0 lg:col-span-6">
       <div className="flex flex-col gap-2">
         <p className="text-xs font-bold tracking-widest text-accent uppercase">Experience</p>
         <h2 id="experience-title" className="text-3xl font-extrabold tracking-tight text-balance sm:text-4xl">

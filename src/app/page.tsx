@@ -14,7 +14,7 @@ export default function Home() {
         className="pointer-events-none absolute -start-56 top-[15%] z-content size-[30rem] rounded-full bg-[radial-gradient(circle,var(--hero-aura)_0%,transparent_70%)] blur-3xl sm:-start-48"
       />
       <SiteHeader />
-      <main id="main-content" className="relative z-content flex flex-1">
+      <main id="main-content" className="relative z-content flex flex-1 pt-[var(--navigation-height)]">
         <div className="flex w-full flex-col">
           <PortfolioHero />
           <PortfolioAbout />

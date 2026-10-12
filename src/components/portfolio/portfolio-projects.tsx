@@ -432,7 +432,7 @@ export function PortfolioProjects() {
     <section
       id="projects"
       aria-labelledby="projects-title"
-      className="mx-auto flex w-full max-w-7xl scroll-mt-24 flex-col gap-8 px-5 py-section sm:px-8 lg:px-12"
+      className="anchor-section mx-auto flex w-full max-w-7xl flex-col gap-8 px-5 py-section sm:px-8 lg:px-12"
     >
       <header className="flex flex-col gap-4 border-b border-border pb-7 sm:flex-row sm:items-end sm:justify-between">
         <div className="min-w-0">

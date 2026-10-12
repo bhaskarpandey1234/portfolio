@@ -35,7 +35,7 @@ export function PortfolioHero() {
     <section
       id="home"
       aria-labelledby="hero-title"
-      className="mx-auto grid min-h-[calc(100dvh-5rem)] w-full max-w-7xl scroll-mt-24 grid-cols-1 items-center gap-10 px-5 pt-7 pb-14 sm:px-8 sm:pt-10 lg:grid-cols-12 lg:gap-8 lg:px-12 lg:pt-8 lg:pb-20"
+      className="anchor-section mx-auto grid min-h-[calc(100dvh-5rem)] w-full max-w-7xl grid-cols-1 items-center gap-10 px-5 pt-7 pb-14 sm:px-8 sm:pt-10 lg:grid-cols-12 lg:gap-8 lg:px-12 lg:pt-8 lg:pb-20"
     >
       <div className="flex min-w-0 flex-col items-start gap-5 lg:col-span-7">
         <div className="flex items-center gap-2 text-lg font-medium text-muted-foreground sm:text-xl">

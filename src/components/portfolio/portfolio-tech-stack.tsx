@@ -361,9 +361,9 @@ export function PortfolioTechStack() {
   return (
     <section
       ref={sectionRef}
-      id="tech-stack"
+      id="skills"
       aria-labelledby={`${sectionId}-title`}
-      className="relative isolate mx-auto w-full max-w-7xl scroll-mt-24 px-5 py-section sm:px-8 lg:px-12"
+      className="anchor-section relative isolate mx-auto w-full max-w-7xl px-5 py-section sm:px-8 lg:px-12"
     >
       <div aria-hidden="true" className="pointer-events-none absolute end-0 top-1/4 z-content size-64 rounded-full bg-[radial-gradient(circle,var(--hero-aura)_0%,transparent_70%)] blur-3xl" />
 

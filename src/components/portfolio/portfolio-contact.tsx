@@ -196,7 +196,7 @@ export function PortfolioContact() {
   }
 
   return (
-    <section id="contact" aria-labelledby="contact-title" className="animate-fade-in-up-2 min-w-0 lg:col-span-6">
+    <section id="contact" aria-labelledby="contact-title" className="anchor-section animate-fade-in-up-2 min-w-0 lg:col-span-6">
       <div className="relative isolate overflow-hidden rounded-2xl border border-accent/20 bg-accent-soft/55 p-6 shadow-[0_10px_30px_rgb(var(--shadow-color)/8%)] sm:rounded-3xl sm:p-8 lg:p-9">
         <div aria-hidden="true" className="pointer-events-none absolute -end-24 -top-24 -z-10 size-64 rounded-full bg-accent/15 blur-3xl" />
         <p className="text-xs font-bold tracking-widest text-accent uppercase">Let&apos;s connect</p>

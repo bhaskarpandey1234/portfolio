@@ -5,6 +5,7 @@
 
 :root {
   color-scheme: light;
+  --navigation-height: 5rem;
   --background: #fafcfc;
   --foreground: #0f172a;
   --surface: #ffffff;
@@ -81,7 +82,11 @@
 html {
   min-width: 0;
   scroll-behavior: smooth;
-  scroll-padding-top: 5.5rem;
+  scroll-padding-top: var(--navigation-height);
+}
+
+.anchor-section {
+  scroll-margin-top: var(--navigation-height);
 }
 
 body {

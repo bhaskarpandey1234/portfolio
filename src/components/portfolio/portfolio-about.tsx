@@ -30,7 +30,7 @@ export function PortfolioAbout() {
     <AboutReveal
       id="about"
       aria-labelledby="about-title"
-      className="relative isolate mx-auto grid w-full max-w-7xl scroll-mt-24 gap-12 px-5 py-section sm:px-8 lg:grid-cols-12 lg:gap-16 lg:px-12"
+      className="anchor-section relative isolate mx-auto grid w-full max-w-7xl gap-12 px-5 py-section sm:px-8 lg:grid-cols-12 lg:gap-16 lg:px-12"
     >
       <div
         aria-hidden="true"
